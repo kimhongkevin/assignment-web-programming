@@ -46,6 +46,11 @@ All PHP files within the `users` folder **must** adhere to the following:
     * Implement error checking for database operations.
     * Provide clear success/error messages (Bootstrap alerts).
     * Redirect using `header('Location: ...'); exit();` after POST requests.
+7. **Database configuration
+$host = 'localhost';
+$username = 'root';      // Default XAMPP username
+$password = '';          // Default XAMPP password (empty)
+$database = 'audio_store_db';
 
 ---
 
