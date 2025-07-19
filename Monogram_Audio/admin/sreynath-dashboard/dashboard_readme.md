@@ -43,7 +43,11 @@ All PHP files within the `dashboard` folder **must** adhere to the following:
 6.  **Error Handling & User Feedback:**
     * Implement basic error checking for database operations.
     * Provide user-friendly messages if data cannot be loaded.
-
+7. **Database configuration
+$host = 'localhost';
+$username = 'root';      // Default XAMPP username
+$password = '';          // Default XAMPP password (empty)
+$database = 'audio_store_db';
 ---
 
 ### File-Specific Requirements
