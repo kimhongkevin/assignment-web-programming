@@ -34,6 +34,11 @@ All PHP files within the `products` folder **must** adhere to the following:
 6.  **Error Handling & User Feedback:**
     * Provide clear success/error messages.
     * Redirect after POST.
+7. ** Database configuration
+$host = 'localhost';
+$username = 'root';      // Default XAMPP username
+$password = '';          // Default XAMPP password (empty)
+$database = 'audio_store_db';
 
 ---
 
