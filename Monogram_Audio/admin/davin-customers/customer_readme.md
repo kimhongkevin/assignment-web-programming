@@ -50,6 +50,12 @@ All PHP files within the `customers` folder **must** adhere to the following:
     * Provide clear and user-friendly success or error messages (e.g., using Bootstrap alerts) after any action.
     * Redirect users using `header('Location: ...'); exit();` after successful POST requests to prevent form re-submission.
 
+8. Database configuration
+$host = 'localhost';
+$username = 'root';      // Default XAMPP username
+$password = '';          // Default XAMPP password (empty)
+$database = 'audio_store_db';
+
 ---
 
 ### File-Specific Requirements
